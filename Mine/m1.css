@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-image {
+  background-image: url('hero-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+  justify-content: first baseline;
+  align-items: center;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 60000%;
+  height: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.checkbox-group {
+  display: inline-block;
+  margin-right: 10px;
+  color: #000000;
+}
+
+.icon-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-group img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+button[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

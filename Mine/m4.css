@@ -1,0 +1,97 @@
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header img{
+size: 0px;
+
+}
+
+.help-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cards-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.level {
+  font-weight: bold;
+}
+
+.restart-button {
+  background-color: #fff;
+  border: none;
+  color: #000;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.footer-buttons button {
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000f;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}

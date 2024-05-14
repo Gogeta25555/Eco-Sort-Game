@@ -1,0 +1,150 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.eco-stats-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #000;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.header-right img {
+  height: 40px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+nav ul li {
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  display: flex;
+  padding: 5px;
+  
+}
+
+nav ul li a img {
+  width: 24px;
+  height: 24px;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+ 
+}
+
+aside {
+  width: 25%;
+  padding-right: 20px;
+}
+
+aside section {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+ flex-shrink: initial;
+}
+
+aside section img {
+  max-width: 100%;
+}
+
+.progress-bar {
+  background-color: #f5f5f5;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: rgba(54, 52, 52, 0);
+  height: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  width: 75%;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content-info {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.author-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rating {
+  color: #ffc107;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.start-sorting,
+.learn-more {
+  background-color: #ffff;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
